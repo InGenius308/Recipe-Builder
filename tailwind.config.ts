@@ -52,6 +52,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				ingredient: {
+					fresh: 'hsl(var(--ingredient-fresh))',
+					warning: 'hsl(var(--ingredient-warning))',
+					expired: 'hsl(var(--ingredient-expired))'
+				},
+				recipe: {
+					easy: 'hsl(var(--recipe-difficulty-easy))',
+					medium: 'hsl(var(--recipe-difficulty-medium))',
+					hard: 'hsl(var(--recipe-difficulty-hard))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
