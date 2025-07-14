@@ -35,7 +35,24 @@ export const MealPlanner = () => {
 
   const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
   const mealTypes = ['breakfast', 'lunch', 'dinner', 'snack'];
-  const availableRecipes = ['Tomato Basil Pasta', 'Chicken Stir Fry', 'Caesar Salad', 'Pancakes', 'Soup'];
+  const availableRecipes = [
+    // Breakfast
+    'Pancakes', 'French Toast', 'Scrambled Eggs', 'Oatmeal with Berries', 'Avocado Toast',
+    'Greek Yogurt Parfait', 'Breakfast Burrito', 'Smoothie Bowl', 'Bagel with Cream Cheese',
+    
+    // Lunch
+    'Caesar Salad', 'Chicken Wrap', 'Grilled Cheese Sandwich', 'Quinoa Bowl', 'Tuna Salad',
+    'BLT Sandwich', 'Caprese Salad', 'Chicken Caesar Wrap', 'Mediterranean Bowl', 'Soup and Salad',
+    
+    // Dinner
+    'Tomato Basil Pasta', 'Chicken Stir Fry', 'Grilled Salmon', 'Beef Tacos', 'Vegetable Curry',
+    'Spaghetti Carbonara', 'Chicken Parmesan', 'Fish and Chips', 'Steak with Vegetables',
+    'Mushroom Risotto', 'Thai Green Curry', 'BBQ Ribs', 'Lamb Chops', 'Seafood Paella',
+    
+    // Snacks
+    'Fruit Salad', 'Hummus with Vegetables', 'Trail Mix', 'Cheese and Crackers', 'Apple Slices',
+    'Nuts and Dried Fruit', 'Yogurt with Granola', 'Vegetable Chips', 'Protein Smoothie'
+  ];
 
   const addMealToPlan = () => {
     if (!selectedRecipe) {
